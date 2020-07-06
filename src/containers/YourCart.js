@@ -8,8 +8,8 @@ class YourCart extends Component {
       <div className="ui segment inverted yellow bot-army">
         <div className="ui five column grid">
           <div className="row bot-army-row">
-            {/*...and here...*/}
             Your Shopping Cart
+            {/*...and here...*/}
           </div>
         </div>
       </div>

@@ -7,8 +7,8 @@ class ItemContainer extends Component {
     return (
       <div className="ui four column grid">
         <div className="row">
-          {/*...and here..*/}
           Available Grocery Items
+          {/*...and here..*/}
         </div>
       </div>
     );
