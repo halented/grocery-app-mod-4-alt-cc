@@ -57,11 +57,12 @@ These deliverables are not required to pass the code challenge, but if you have 
 
 As a user, I should be able to:
 
-- View further details on a grocery item before deciding whether or not to put it in my cart. Clicking on the item card should instead display a show view (`ItemDetails`) for that item, which should replace `ItemContainer`. ItemDetails should have two buttons: one to go back to the list view and another to add the item to your cart. Your app could look like the following:
+- View further details on a grocery item before deciding whether or not to put it in my cart. Clicking on the item card should instead display a show view (`ItemDetails`) for that item, which should replace `ItemContainer`. ItemDetails should have two buttons: one to go back to the list view and another to add the item to your cart. 
+<!-- Your app could look like the following: -->
 
-![alt text][full_demo]
+<!-- ![alt text][full_demo]
 
-[full_demo]: ./public/full_demo.gif "Full demo"
+[full_demo]: ./public/full_demo.gif "Full demo" -->
 
 - Sort items by their name or price. For this, create a new component, `SortBar`.
 - When a single item is added to the cart more than once, show that item's count, rather than just two of the item.
