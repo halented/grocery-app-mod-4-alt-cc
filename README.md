@@ -47,7 +47,7 @@ As a user, I should be able to:
 - See images and names of all items rendered in `ItemContainer`.
 - Add an individual item to my cart by clicking on it. The selected item should render in the `YourCart` component. Items may be added more than once. The item **does not** disappear from the `ItemContainer`.
 - Remove an item from your cart by clicking on it. The item disappears from the `YourCart` component.
-- Make a "purchase", removing all items from your cart at once. 
+- Add an item to the available grocery selection using the `AddItemForm`. The item should persist to the db.json file. Here is a URL to a royalty-free orange image that you can use to test out your form submission: `https://cdn.pixabay.com/photo/2012/12/24/08/40/orange-72321__480.jpg`
 
 ## Advanced Deliverables
 
@@ -58,12 +58,6 @@ These deliverables are not required to pass the code challenge, but if you have 
 As a user, I should be able to:
 
 - View further details on a grocery item before deciding whether or not to put it in my cart. Clicking on the item card should instead display a show view (`ItemDetails`) for that item, which should replace `ItemContainer`. ItemDetails should have two buttons: one to go back to the list view and another to add the item to your cart. 
-<!-- Your app could look like the following: -->
-
-<!-- ![alt text][full_demo]
-
-[full_demo]: ./public/full_demo.gif "Full demo" -->
-
 - Sort items by their name or price. For this, create a new component, `SortBar`.
 - When a single item is added to the cart more than once, show that item's count, rather than just two of the item.
 - When I add an item to the cart it will be **removed** from the `ItemContainer` and added to `YourCart`.

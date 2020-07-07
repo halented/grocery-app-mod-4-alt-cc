@@ -1,10 +1,10 @@
-.bot-army {
+.item {
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
 }
 
-.ui.grid > .row.bot-army-row {
+.ui.grid > .row.item-row {
   flex-wrap: nowrap;
   min-height: 100%;
 }

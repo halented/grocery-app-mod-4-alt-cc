@@ -1,10 +1,19 @@
 import React, { Component } from "react";
+import AddItemForm from "../components/AddItemForm";
 
 class Grocery extends Component {
-  //start here with your code for step one
+  //start in this component with your code for step one
+
+  state = {
+    showForm: false
+  }
 
   render() {
-    return <div>{/* put your components here */}</div>;
+    return <div>
+      <button onClick={()=>this.setState({showForm: !this.state.showForm})}>Toggle Form</button>
+      {this.state.showForm && <AddItemForm />}
+      {/* add other components here */}
+      </div>;
   }
 }
 

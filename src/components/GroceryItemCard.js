@@ -19,20 +19,6 @@ const GroceryItemCard = props => {
             <small>{props.item.description}</small>
           </div>
         </div>
-        <div className="extra content">
-          <span>
-            <div className="ui center aligned segment basic">
-              <button
-                className="ui mini red button"
-                onClick={() =>
-                  console.log("add code to connect event listener")
-                }
-              >
-                °
-              </button>
-            </div>
-          </span>
-        </div>
       </div>
     </div>
   );

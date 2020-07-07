@@ -5,9 +5,9 @@ class YourCart extends Component {
 
   render() {
     return (
-      <div className="ui segment inverted yellow bot-army">
+      <div className="ui segment inverted yellow item">
         <div className="ui five column grid">
-          <div className="row bot-army-row">
+          <div className="row item-row">
             Your Shopping Cart
             {/*...and here...*/}
           </div>
